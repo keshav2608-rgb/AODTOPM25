@@ -1,0 +1,24 @@
+# Virtual Environment - Never upload
+venv/
+
+# Environment secrets - NEVER upload
+.env
+.dodsrc
+
+# Large data files - too heavy for GitHub
+data/raw/
+data/interim/
+data/processed/
+
+# Trained model binaries - heavy files
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

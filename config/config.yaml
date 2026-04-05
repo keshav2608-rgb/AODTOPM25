@@ -1,0 +1,9 @@
+merra:
+  job_id: "4dc28dd7-db20-4faf-a51a-18dcc67a61f3"
+  output_dir: "data/raw/merra"
+
+insat:
+  host: "download.mosdac.gov.in"
+  port: 22
+  remote_dir: "/Order"
+  output_dir: "data/raw/insat"
